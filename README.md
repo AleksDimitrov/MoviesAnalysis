@@ -27,6 +27,7 @@ pandas
 numpy
 matplotlib
 statsmodels
+
 These can be installed using pip by running the following command:
 
 pip install pandas numpy matplotlib statsmodels
