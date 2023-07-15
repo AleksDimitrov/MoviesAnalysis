@@ -37,7 +37,7 @@ plt.figure(figsize=(12, 9), facecolor="#B29700") # make outer area dark gold
 plt.axes(facecolor="#BEC2CB") # make inner area light silver
 comedy2 = df2.loc[df2.genre == "Comedy"].sort_values(by="gross", ascending=False) # gets rows with Comedy genre sorted by gross revenue in descending order
 df2.dropna() # drop NA values
-comedy2 = comedy2[:500] # gets the first 20 rows from the comedy2 DF
+comedy2 = comedy2[:500] # gets the first 500 rows from the comedy2 DF
 graph2 = pd.Series(comedy2.gross.values, comedy2.year.values) # makes a series using the gross revenue as data and names as index
 graph2.dropna() # drop NA values
 ax = graph2.plot(linestyle='', marker='o', markersize=5, alpha=0.75, color="green") # make scatter plot
