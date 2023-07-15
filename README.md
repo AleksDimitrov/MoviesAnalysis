@@ -1,6 +1,6 @@
 # MoviesAnalysis
 
-Movie Images:
+movie_images.py:
 This script generates visualizations of movie data, analyzing the data in terms of genre, revenue, and year. The script uses the following libraries:
 
 pandas
