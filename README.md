@@ -1,6 +1,6 @@
 # MoviesAnalysis
 
-Movie Images
+Movie Images:
 This script generates visualizations of movie data, analyzing the data in terms of genre, revenue, and year. The script uses the following libraries:
 
 pandas
@@ -17,10 +17,10 @@ The second plot shows the gross revenue over time for the top 500 comedy films s
 Plot 3:
 The third plot displays the average gross revenue for films in each genre since 1980. The data is read from the same CSV file as in Plots 1 and 2 and grouped by genre. The average gross revenue for each genre is then calculated, and a bar plot is created with the genre on the x-axis and the average gross revenue on the y-axis.
 
-How to Use
+How to Use:
 To use this script, you can run the script using a Python interpreter or from the command line. The resulting plots will be displayed in separate windows.
 
-Requirements
+Requirements:
 This script requires the following libraries:
 
 pandas
